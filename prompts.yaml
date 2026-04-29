@@ -1,0 +1,39 @@
+zero_shot:
+  name: Zero-shot
+  template: |
+    Classify the sentiment of this customer message as Positive, Neutral, or Negative.
+    Message: {input}
+
+few_shot:
+  name: Few-shot
+  template: |
+    Classify sentiment.
+
+    Message: "I love the new dashboard."
+    Sentiment: Positive
+
+    Message: "It works, but setup was confusing."
+    Sentiment: Neutral
+
+    Message: "The app keeps crashing."
+    Sentiment: Negative
+
+    Message: {input}
+    Sentiment:
+
+role_prompt:
+  name: Role prompting
+  template: |
+    You are a senior customer support analyst.
+    Classify the customer sentiment as Positive, Neutral, or Negative.
+    Explain your answer briefly.
+
+    Message: {input}
+
+structured:
+  name: Structured output
+  template: |
+    Return JSON only:
+    {{"sentiment": "...", "confidence": 0.0, "reason": "..."}}
+
+    Message: {input}
