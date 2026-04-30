@@ -15,8 +15,10 @@ A simple interactive app to compare and rate different prompt engineering strate
 ---
 
 ## 📸 Screenshots
+<img width="1862" height="897" alt="Screenshot from 2026-04-30 14-10-02" src="https://github.com/user-attachments/assets/e9f99617-15db-4523-a5d2-5781cf17abb8" />
+<img width="1862" height="897" alt="Screenshot from 2026-04-30 14-10-18" src="https://github.com/user-attachments/assets/0f258f7f-eec3-4a08-972a-a55f4d534d7e" />
 
-Refer to screenshot folder
+
 ---
 
 ## 🧠 Why this project?
